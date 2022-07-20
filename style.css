@@ -182,3 +182,45 @@
     column-gap: 20px;
     margin-top: 20px;
 }
+
+
+/*------------------ Mediya quarice 
+----------------------------------------- */
+
+/* mobile device  */
+
+
+@media only screen and (max-width:688px) {
+    .banner {
+        display: flex;
+        padding-left: 220px;
+        padding-right: 350px;
+        padding-bottom: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-middel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1px;
+    }
+
+    .site-bar {
+        background-color: white;
+    }
+
+    .play {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 150px;
+    }
+
+    .fotter-info {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
