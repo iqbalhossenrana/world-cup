@@ -143,6 +143,19 @@
     column-gap: 25px;
 }
 
+/* view all button  */
+.view-button {
+    display: none;
+    background-color: red;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    left: 246px;
+    top: 529px;
+    color: #FFFFFF;
+
+}
+
 /* fotter section  */
 
 .fotter {
@@ -223,4 +236,35 @@
         flex-direction: column;
 
     }
+}
+
+/*---------------
+------------------- tablet device  */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .section-middel {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .site-bar {
+        grid-template-columns: repeat(3, 1fr);
+        background-color: white;
+        justify-content: center;
+        column-gap: 10px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+
+    }
+
+    .play {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-button {
+        display: block;
+    }
+
 }
