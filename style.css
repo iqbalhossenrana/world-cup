@@ -17,7 +17,10 @@
     margin-top: 50px;
 
 
+
 }
+
+
 
 .banner {
 
@@ -56,7 +59,17 @@
     left: 246px;
     top: 529px;
     color: #FFFFFF;
+
+
+
+
 }
+
+.banner-button:hover {
+    background-color: chartreuse;
+    color: blue;
+}
+
 
 /* secttion-meddil */
 
@@ -159,4 +172,13 @@
     column-gap: 35px;
     margin-top: 30px;
 
+}
+
+/* fotter social media icon  */
+
+.social-media-icon {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 20px;
 }
